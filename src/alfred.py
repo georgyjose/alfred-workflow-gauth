@@ -22,7 +22,7 @@ _MAX_RESULTS_DEFAULT = 9
 
 with open('info.plist', 'rb') as f:
     preferences = plistlib.load(f)
-    bundleid = preferences['bundleid']
+bundleid = preferences['bundleid']
 
 class Item(object):
     @classmethod
